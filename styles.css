@@ -23,9 +23,3 @@ ul {
     list-style: none;
     display: inline-flex;
 }
-
-body {
-    margin: 0px;
-    padding: 10px;
-    line-height: 1.3;
-}
