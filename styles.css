@@ -1,0 +1,22 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+nav {
+
+    display: inline-flex;
+    font-size: 1rem;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: .625rem;
+    line-height: 1.3;
+}
