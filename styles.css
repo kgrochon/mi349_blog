@@ -5,10 +5,14 @@ html {
 nav {
 
     display: inline-flex;
-    font-size: 1rem;
+    font-size: 3.25rem;
 }
 
 a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+ul {
     text-decoration: none;
 }
 
@@ -17,6 +21,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
     padding: 0px;
-    font-size: .625rem;
+    font-size: 1.25em;
     line-height: 1.3;
 }
