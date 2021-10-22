@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI 349 Blog</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Rampart+One&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div class="heading">
-        <header>
-            <h1><a href="index.html">MI 349 Blog</a></h1>
-        </header>
+    <header>
+        <h1 class="heading_title"><a href="index.html">MI 349 Blog</a></h1>
         <nav>
             <ul class="nav_ul">
-                <li class="nav_li"><a href="about.html">About</a></li>
-                <li class="nav_li"><a href="index.html">Home</a></li>
+                <li class="nav_li widen"><a href="contact.html">Contact</a></li>
+                <li class="nav_li widen"><a href="about.html">About</a></li>
+                <li class="nav_li widen"><a href="index.html">Home</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
     <main>
-        <article>
+        <article class="sect">
             <h2>
                 Who is Karl Popper?
             </h2>
-            <p class="post_info"> 
-                By: Katherine Rochon <br>
-                Oct. 12, 2021
-            </p>
+            <address class="post_info" rel="post_info"> 
+                By: Katherine Rochon
+            </address>
+            <time datetime="2021-13-10" title="October 13 2021" class="post_info" rel="post_info">Oct 13, 2021<br><br></time>
             <img src="canvas.png" alt="Karl Popper Portrait" style="float:left;width:200px;">
             <p>
                 Karl Popper was born in Vienna, Austria on July 28, 1902. He spent most of his 
@@ -68,15 +69,38 @@
 
             </p>
         </article>
-        <article>
+        <article class="sect">
             <h2>
                 Mercury Retrograde
             </h2>
-            <p class="post_info"> 
-                By: Katherine Rochon <br>
-                Oct. 14, 2021
-            </p>
+            <address class="post_info" rel="post_info"> 
+                By: Katherine Rochon
+            </address>
+            <time datetime="2021-12-10" title="October 12 2021" class="post_info" rel="post_info">Oct 12, 2021<br><br></time>
             <img src="mercury.png" alt="Karl Popper Portrait" style="float:left;width:180px;margin-right:10px;">
+            <table>
+                <caption>2021 Calender</caption>
+                <tr>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Astrological Sign</th>
+                </tr>
+                <tr>
+                    <td>January 30</td>
+                    <td>February 20</td>
+                    <td>Aquarius</td>
+                </tr>
+                <tr>
+                    <td>May 29</td>
+                    <td>June 22</td>
+                    <td>Gemini</td>
+                </tr>
+                <tr>
+                    <td>September 27</td>
+                    <td>October 17</td>
+                    <td>Libra</td>
+                </tr>
+            </table>
             <p>
                 Three times a year mercury goes into retrograde. What does that mean? Well, 
                 in simple terms, it appears to be moving backwards, slower, in the sky.  In 
@@ -104,6 +128,14 @@
                   even more so right now.
             </p>
         </article>
+        <section id="news-letter" class="sect">
+            <form>
+                <lable>Sign up for our newsletter: 
+                    <input class="subscribe-input input" type="text" placeholder="johndoe@example.com">
+                </lable>
+                <button class="news-style">Subscribe</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>

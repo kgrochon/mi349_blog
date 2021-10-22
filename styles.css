@@ -1,68 +1,149 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
-.heading {
-    border: 2px solid darkgray;
+body { 
+    width: 100%;
+    margin: 0;
 }
-
 header {
-    font-size: 1.1rem;
-    padding-left: 20px;
-    padding-left: 20px;
-    margin: 10px;
-    border: 4px solid rgb(79, 8, 146);
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    background-color: rgb(171, 169, 188);
     
+}
+.heading_title {
+    font-family: 'Rampart One';
+    margin: 0px;
+    padding:10px 0px 10px 20px;
 }
 
 nav {
+    font-family: 'Rampart One';
     font-size: 1rem;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 0px;
-    background-color: rgb(145, 142, 170);
+    padding: 0px 0px 0px 10px;
+    margin: 5px 0px;
+    border-bottom: 1px solid rgb(145, 142, 170);
+    border-top: 1px solid rgb(145, 142, 170);
 }
 
 a, a:visited, a:hover {
     text-decoration: none;
 }
 .nav_ul {
-    padding: 10px 5px 20px 5px;
+    padding: 0px 5px 25px 5px;
     margin: 0;
 }
-.nav_li {
-    list-style: none;
-    margin-right: 20px;
+
+.nav_li { 
+    display:inline;
+ }
+
+.nav_ul li a {
     float: right;
+    list-style: none;
+    margin-right: 3rem;
+    -webkit-transition: -webkit-transform 300ms ease-out;
+    transition: -webkit-transform 300ms ease-out;
+    transition: transform 300ms ease-out;
+    transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+}
+  
+li a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-
-article {
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    border:2px solid rgb(79, 8, 146);
+.sect {
+    padding: 20px 40px;
+    margin: 6rem auto;
+    width: 50%;
+    background-color: rgb(171, 169, 188);
     font-size:.874rem;
+    color: #4D2386;
 }
 
-.about_fill {
-    background-color: rgb(145, 142, 170);
-}
 h2 {
-    font-size: 1rem;
+    font-family: 'Rampart One';
+    font-size: 1.2rem;
 }
 p {
     font-size: .875rem;
     line-height: 1.3rem;
 }
 
+.news-style input, button{
+    font-size: 2rem;
+    font-family: 'Rampart One';
+    border: none;
+    background-color:rgb(145, 142, 170);
+    padding-bottom: .5rem;
+}
+
+button:hover {
+    background:rgb(118, 116, 141);
+}
+
 .post_info {
     line-height: .8rem;
-    font-size: .5rem;
+    font-size: .8rem;
+}
+
+caption, th, td {
+    border:rgb(145, 142, 170) solid 1px;
+    padding: 0 .4rem;
+}
+
+#contact-form {
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: white;
+    font-family: 'Rampart One';
+}
+
+form {
+    text-align: center;
+}
+
+#news-letter {
+    font-family: 'Rampart One';
+    font-size: 2rem;
+    padding: 4rem 0;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.pair {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+}
+.half {
+    display: inline-block;
+    width: auto;
+}
+
+textarea, select {
+    font-family: 'Rampart One';
+    color: rgb(147, 143, 143);
+    margin: auto;
+    width: 99%;
+    border: rgb(145, 142, 170), solid, 1px;
+}
+
+input {
+    font-family: 'Rampart One';
+    padding-left: 1rem;
+}
+.subscribe-input {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+#contact-button {
+    margin: 1rem 0 1rem 80%;
 }

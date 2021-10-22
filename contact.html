@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI 349 Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h1 class="heading_title"><a href="index.html">MI 349 Blog</a></h1>
+        <nav>
+            <ul class="nav_ul">
+                <li class="nav_li widen"><a href="contact.html">Contact</a></li>
+                <li class="nav_li widen"><a href="about.html">About</a></li>
+                <li class="nav_li widen"><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sect">
+            <h2>Contact Me!</h2>
+            <form id="contact-form">
+                <div class="pair">
+                    <lable class="half">Full Name: 
+                        <input type="text" placeholder="Jane Doe" required="required">
+                    </lable>
+                    <lable class="half">Email: 
+                        <input type="email" placeholder="janedoe@example.com" required="required">
+                    </lable>
+                </div>
+                <label for="contact-reason">Reason for contact:</label>
+                <select id="contact-reason">
+                    <option value="">Select Option</option>
+                    <option value="hi">Saying hi</option>
+                    <option value="contractor">Looking for a contractor</option>
+                    <option value="interview">Interested in an interview</option>
+                </select> <br>
+                <label>Message: <br>
+                    <textarea name="message" rows="6" required="required">Type your Message...</textarea>
+                </label> 
+                <button id="contact-button">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
